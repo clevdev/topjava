@@ -19,9 +19,9 @@ public class UserMealWithExceed {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append( "date: "+dateTime.toString()).append(", description: "+description).append(", calories: "+calories).append(", exceed: "+exceed);
+        sb.append("date: " + dateTime.toString()).append(", description: " + description).append(", calories: " + calories).append(", exceed: " + exceed);
         return sb.toString();
     }
 }
